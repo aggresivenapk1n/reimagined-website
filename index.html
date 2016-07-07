@@ -4,25 +4,81 @@
 	<head>
 		<title>LangDavis.com</title>
 		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</head>
 	
 	<body>
+	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
-		<ul>
-			 <li><a href="default.html">Home</a></li>
-			 <li><a href="news.html">News</a></li>
-			 <li><a href="contact.html">Contact</a></li>
-			 <li style="float:right"><a href="about.html">About</a></li>
-		</ul>
-		<div class="website">
-			<div class="boxComponent">
-			<p>Click Me, I'm a box</p>
+		<div class="wrapper">
+<!-- ================================ -->
+<!-- 				Topbar										    -->
+<!-- ================================ -->
+			<div class="topbar-wrapper">
+				<ul>
+					 <li><a href="default.html">Home</a></li>
+					 <li><a href="news.html">News</a></li>
+					 <li><a href="contact.html">Contact</a></li>
+					 <li><a style="">Lang Davis</a></li>
+					 <li style="float:right" class="active"><a href="about.html">About</a></li>
+				</ul>
 			</div>
-			<div class="boxComponent">
-			<p>I'm a box too!</p>
+			
+<!-- ================================ -->
+<!-- 				sidebar									    -->
+<!-- ================================ -->
+			<div class='sidebar-wrapper' style="display: none;">
+				<span class='sidebar-span'>Projects</span>
+				<span class='sidebar-span-a'><a href="contact.html">Content 1</a></span>
+				<span class='sidebar-span-a'><a href="contact.html">Content 2</a></span>
 			</div>
-		</div>
+			
+<!-- ================================ -->
+<!-- 				main content of page				    -->
+<!-- ================================ -->
+			<div class="main-content-wrapper">
+				
+				<!-- Main Image -->
+				<img class="main-image" src='https://placeholdit.imgix.net/~text?txtsize=84&txt=900%C3%97400&w=900&h=400'></img>
+				
+				<!-- Text Card 1 -->
+				<div class="card">
+				  <div class="header">
+					<h1>Text Card</h1>
+				  </div>
+				  <div class="text-container">
+					<p>Hi this is a place holder text</p>
+				  </div>
+				</div>
+				
+				<!-- Image Card 1 -->
+				<div class="card">
+				  <image src="images/250.jpg" alt="Placeholder Image" style="width:100%"></image>
+				  <div class="text-container">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo sit amet leo in hendrerit. Etiam odio nulla, porttitor ac accumsan at, facilisis quis turpis. Phasellus vitae porta risus, eget tempor eros. Praesent mollis dolor rhoncus libero malesuada ultrices. Etiam porta arcu a velit lobortis convallis. Aliquam dapibus lectus eu tellus lacinia imperdiet. Nam tempus sagittis cursus. Phasellus diam leo, porttitor id sodales tempus, molestie vitae ante. Nulla sit amet lectus et nibh ullamcorper ullamcorper nec vitae dolor. Nunc dapibus erat quis ante eleifend iaculis. Nam mi odio, facilisis a sem dapibus, congue feugiat tortor. </p>
+				  </div>
+				</div>
+				
+				<!-- Image Card 2 -->
+				<div class="card">
+				  <image src="images/250.jpg" alt="Placeholder Image" style="width:100%"></image>
+				  <div class="text-container">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo sit amet leo in hendrerit. Etiam odio nulla, porttitor ac accumsan at, facilisis quis turpis. Phasellus vitae porta risus, eget tempor eros. Praesent mollis dolor rhoncus libero malesuada ultrices. Etiam porta arcu a velit lobortis convallis. Aliquam dapibus lectus eu tellus lacinia imperdiet. Nam tempus sagittis cursus. Phasellus diam leo, porttitor id sodales tempus, molestie vitae ante. Nulla sit amet lectus et nibh ullamcorper ullamcorper nec vitae dolor. Nunc dapibus erat quis ante eleifend iaculis. Nam mi odio, facilisis a sem dapibus, congue feugiat tortor. </p>
+				  </div>
+				</div>
+				
+
+			</div> <!-- END MAIN-CONTENT-WRAPPER -->
+		
+		</div> <!-- END WRAPPER -->
 	</body>
 	
 </html>
